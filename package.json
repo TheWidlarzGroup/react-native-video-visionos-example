@@ -13,7 +13,8 @@
   "dependencies": {
     "@callstack/react-native-visionos": "0.74.0-nightly-20240115",
     "react": "18.2.0",
-    "react-native": "0.74.0-nightly-20240114-f30acc6f5\n"
+    "react-native": "0.74.0-nightly-20240114-f30acc6f5\n",
+    "react-native-video": "beta"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

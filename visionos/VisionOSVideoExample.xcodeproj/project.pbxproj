@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* VisionOSVideoExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VisionOSVideoExampleTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-VisionOSVideoExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-VisionOSVideoExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a */; };
+		39B66F8A5522B47CBED7FF7B /* libPods-VisionOSVideoExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3C607F1C41D6ACD48FA1F4 /* libPods-VisionOSVideoExample.a */; };
+		7B4F03423A8B4ADB200A5FE5 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B20BB07583C4EC93F5D1188 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -36,13 +36,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VisionOSVideoExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VisionOSVideoExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VisionOSVideoExample/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-VisionOSVideoExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionOSVideoExample.debug.xcconfig"; path = "Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-VisionOSVideoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionOSVideoExample.release.xcconfig"; path = "Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-VisionOSVideoExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionOSVideoExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419326354B348AD76A6AF61E /* Pods-VisionOSVideoExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionOSVideoExample.debug.xcconfig"; path = "Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5E16EAB48BF5665F0219B6DF /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B20BB07583C4EC93F5D1188 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VisionOSVideoExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B3C607F1C41D6ACD48FA1F4 /* libPods-VisionOSVideoExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionOSVideoExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE0C9DF49EC1E1FB74BAED2 /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8F7C1263BCE5D9A1ADE924 /* Pods-VisionOSVideoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionOSVideoExample.release.xcconfig"; path = "Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a in Frameworks */,
+				7B4F03423A8B4ADB200A5FE5 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-VisionOSVideoExample.a in Frameworks */,
+				39B66F8A5522B47CBED7FF7B /* libPods-VisionOSVideoExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-VisionOSVideoExample.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a */,
+				8B3C607F1C41D6ACD48FA1F4 /* libPods-VisionOSVideoExample.a */,
+				6B20BB07583C4EC93F5D1188 /* libPods-VisionOSVideoExample-VisionOSVideoExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-VisionOSVideoExample.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-VisionOSVideoExample.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig */,
+				419326354B348AD76A6AF61E /* Pods-VisionOSVideoExample.debug.xcconfig */,
+				CB8F7C1263BCE5D9A1ADE924 /* Pods-VisionOSVideoExample.release.xcconfig */,
+				9CE0C9DF49EC1E1FB74BAED2 /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig */,
+				5E16EAB48BF5665F0219B6DF /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VisionOSVideoExampleTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				22AADE33D8E37FCAC6D120D2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				5F2C8FBCBF0FF8C5CE405414 /* [CP] Embed Pods Frameworks */,
+				D7B76F53EBE7F5E9077F040C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VisionOSVideoExample" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				B36EDDE93ECF6CD92F85F6BB /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				8DF36B0C94547941D564929A /* [CP] Embed Pods Frameworks */,
+				83CCB01AACB7A80E04C62365 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,24 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		22AADE33D8E37FCAC6D120D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,7 +287,58 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		5F2C8FBCBF0FF8C5CE405414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83CCB01AACB7A80E04C62365 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF36B0C94547941D564929A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36EDDE93ECF6CD92F85F6BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,41 +360,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample-VisionOSVideoExampleTests/Pods-VisionOSVideoExample-VisionOSVideoExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionOSVideoExample/Pods-VisionOSVideoExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		D7B76F53EBE7F5E9077F040C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 9CE0C9DF49EC1E1FB74BAED2 /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +437,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig */;
+			baseConfigurationReference = 5E16EAB48BF5665F0219B6DF /* Pods-VisionOSVideoExample-VisionOSVideoExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,7 +461,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-VisionOSVideoExample.debug.xcconfig */;
+			baseConfigurationReference = 419326354B348AD76A6AF61E /* Pods-VisionOSVideoExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -486,14 +486,14 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "7";
+				TARGETED_DEVICE_FAMILY = 7;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-VisionOSVideoExample.release.xcconfig */;
+			baseConfigurationReference = CB8F7C1263BCE5D9A1ADE924 /* Pods-VisionOSVideoExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -516,7 +516,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "7";
+				TARGETED_DEVICE_FAMILY = 7;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -590,7 +590,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/@callstack/react-native-visionos";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -655,7 +661,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/@callstack/react-native-visionos";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -3253,6 +3253,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.2.0
     react-native: "0.74.0-nightly-20240114-f30acc6f5\n"
+    react-native-video: beta
     react-test-renderer: 18.2.0
     typescript: 5.0.4
   languageName: unknown
@@ -8043,6 +8044,16 @@ __metadata:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
+"react-native-video@npm:beta":
+  version: 6.0.0-beta.4
+  resolution: "react-native-video@npm:6.0.0-beta.4"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: da49a4306e246240cead57678d7bc865002f4d477a773befb07643a5f8db5bb1d0d782d72752e4be9e30b825e2bdbe9c7f1646bb27f82ce712b73a5e21d45e4e
   languageName: node
   linkType: hard
 
