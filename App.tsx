@@ -1,93 +1,45 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import * as React from 'react';
+import {Text, View, StyleSheet} from 'react-native';
+import Video from 'react-native-video';
 
-import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {ScrollView, StyleSheet, Text, useColorScheme, View} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+const App = () => {
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
+    <View style={s.container}>
+      <Text style={s.title}>🎬 VisionOS Example for React Native Video ⚛</Text>
+      <Video
+        source={{
+          uri: 'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8',
+          title: 'Sintel',
+          subtitle: 'Example Video',
+          description: 'Example Video to test VisionOS video player',
+          customImageUri:
+            'https://bitdash-a.akamaihd.net/content/sintel/poster.png',
+        }}
+        style={s.video}
+        controls={true}
+        resizeMode={'contain'}
+      />
     </View>
   );
-}
-
-function App(): React.JSX.Element {
-  return (
-    <ScrollView contentInsetAdjustmentBehavior="automatic">
-      <Header />
-      <View>
-        <Section title="Step One">
-          Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-          screen and then come back to see your edits.
-        </Section>
-        <Section title="See Your Changes">
-          <ReloadInstructions />
-        </Section>
-        <Section title="Debug">
-          <DebugInstructions />
-        </Section>
-        <Section title="Learn More">
-          Read the docs to discover what to do next:
-        </Section>
-        <LearnMoreLinks />
-      </View>
-    </ScrollView>
-  );
-}
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
+};
 
 export default App;
+
+const s = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  video: {
+    width: '90%',
+    height: '70%',
+  },
+  title: {
+    fontSize: 30,
+    marginBottom: 20,
+    fontWeight: 'bold',
+    color: 'white',
+  },
+});
