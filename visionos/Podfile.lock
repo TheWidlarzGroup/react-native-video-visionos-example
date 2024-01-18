@@ -1309,7 +1309,7 @@ SPEC CHECKSUMS:
   FBLazyVector: d0a4154158e9cced10d2884dff1951e9544e792a
   fmt: 5d9ffa7ccba126c08b730252123601d514652320
   glog: 4f05d17aa39a829fee878689fc9a41af587fabba
-  hermes-engine: 970a66802d020ba93af794661d5b4c486f1b314a
+  hermes-engine: 65436cad6a125209d958fe91ea92aed5d3fa32c4
   PromisesObjC: 87a05d76b4cf2fec2c9480c551f834f4a2f2fee3
   PromisesSwift: e1849fffccc992f7c88ccbcbfcae4304f82f4d58
   RCT-Folly: 70c792c856324d6a518af75b3a307c14c226343a

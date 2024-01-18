@@ -1,79 +1,63 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<div align="center">
+  <h1 align="center"> 🎬 VisionOS Example for React Native Video ⚛</h1>
+</div>
 
-# Getting Started
+## ➡️ Introduction
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+From version `6.0.0-beta.4`, react-native-video introduce experimental support for **VisionOS** platform. This is an example project that shows how to use it.
 
-## Step 1: Start the Metro Server
+## 🏹 Requirements
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+To run visionOS you will need to have installed:
+- Vision Pro Simulator
+- Xcode 15.2
 
-To start Metro, run the following command from the _root_ of your React Native project:
+More information please check here: [https://github.com/callstack/react-native-visionos](https://github.com/callstack/react-native-visionos)
 
-```bash
-# using npm
-npm start
+## 🚀 Installation
 
-# OR using Yarn
-yarn start
+If you want to use make this in your project you can follow steps in docs: [https://react-native-video.github.io/react-native-video/installation](https://react-native-video.github.io/react-native-video/installation)
+
+To install this example project, clone this repository and install dependencies:
+
+```sh
+yarn install
+cd visionos
+bundle install
+pod install
+cd ..
+yarn visionos
 ```
 
-## Step 2: Start your Application
+## 🖼️ Screenshots
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+<p align="center">
+    <img width="49%" src="./assets/non-fullscreen.png" alt="Non FullScreen Screenshot"/>
+&nbsp;
+    <img width="49%" src="./assets/fullscreen.png" alt="FullScreen Screenshot"/>
+</p>
 
-### For Android
+## 🏢 Made by TheWidlarzGroup
 
-```bash
-# using npm
-npm run android
+Supported by TheWidlarzGroup - the group of React Native Special Task Forces. If you like it -> give it a star!
 
-# OR using Yarn
-yarn android
-```
+E-mail us if you have any questions or just want to talk <hi@thewidlarzgroup.com>
 
-### For iOS
+## 🤝 Can I hire you?
 
-```bash
-# using npm
-npm run ios
+📱 TWG provides both free and commercial support for this project. Feel free to contact us 🤝 to build something awesome together! 🚀
 
-# OR using Yarn
-yarn ios
-```
+You can request a consultation via this form 😎
+[Contact us](https://thewidlarzgroup.involve.me/new-project)
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## 🌐 Follow us
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Stay up to date with news, follow us on [Twitter](https://twitter.com/WidlarzGroup) or [Linkedin](https://www.linkedin.com/company/the-widlarz-group/mycompany/)
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+<a href="https://thewidlarzgroup.com/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/baners/twg-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/baners/twg-light.png" />
+    <img alt="TheWidlarzGroup" src="./assets/baners/twg-light.png" />
+  </picture>
+</a>
